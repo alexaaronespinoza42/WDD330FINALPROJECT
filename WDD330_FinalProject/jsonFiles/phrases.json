@@ -1,0 +1,24 @@
+{
+  "phrases": [
+    { "id": 1, "text": "Believe in yourself, every day is a new opportunity." },
+    { "id": 2, "text": "Success is the result of daily effort." },
+    { "id": 3, "text": "Dream big and take small steps every day." },
+    { "id": 4, "text": "Challenges are opportunities in disguise." },
+    { "id": 5, "text": "Happiness is a choice; choose it daily." },
+    { "id": 6, "text": "Strength grows in moments of struggle." },
+    { "id": 7, "text": "Be kind, for kindness brings peace." },
+    { "id": 8, "text": "You are stronger than you think." },
+    { "id": 9, "text": "Every sunrise brings new hope." },
+    { "id": 10, "text": "Your potential is limitless." },
+    { "id": 11, "text": "Small progress is still progress." },
+    { "id": 12, "text": "Be the change you wish to see in the world." },
+    { "id": 13, "text": "Courage starts with showing up." },
+    { "id": 14, "text": "You are capable of amazing things." },
+    { "id": 15, "text": "Stay positive, work hard, and make it happen." },
+    { "id": 16, "text": "Mistakes are proof you’re trying." },
+    { "id": 17, "text": "Your story is still being written." },
+    { "id": 18, "text": "Focus on the journey, not the destination." },
+    { "id": 19, "text": "In the middle of difficulty lies opportunity." },
+    { "id": 20, "text": "Do something today that your future self will thank you for." }
+  ]
+}
