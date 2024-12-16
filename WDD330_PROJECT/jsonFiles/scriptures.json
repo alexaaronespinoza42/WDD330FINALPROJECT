@@ -1,0 +1,24 @@
+{
+  "scriptures": [
+    { "id": 1, "reference": "Joshua 1:9", "text": "Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go." },
+    { "id": 2, "reference": "Isaiah 40:31", "text": "Those who hope in the Lord will renew their strength." },
+    { "id": 3, "reference": "Philippians 4:13", "text": "I can do all things through Christ who strengthens me." },
+    { "id": 4, "reference": "Psalm 27:1", "text": "The Lord is my light and my salvation—whom shall I fear?" },
+    { "id": 5, "reference": "Deuteronomy 31:6", "text": "Be strong and courageous. Do not be afraid or terrified because of them, for the Lord your God goes with you." },
+    { "id": 6, "reference": "Proverbs 3:5-6", "text": "Trust in the Lord with all your heart and lean not on your own understanding." },
+    { "id": 7, "reference": "2 Timothy 1:7", "text": "For the Spirit God gave us does not make us timid, but gives us power, love, and self-discipline." },
+    { "id": 8, "reference": "Isaiah 41:10", "text": "Do not fear, for I am with you; do not be dismayed, for I am your God." },
+    { "id": 9, "reference": "Romans 8:31", "text": "If God is for us, who can be against us?" },
+    { "id": 10, "reference": "Psalm 46:1", "text": "God is our refuge and strength, an ever-present help in trouble." },
+    { "id": 11, "reference": "Alma 37:6", "text": "By small and simple things are great things brought to pass." },
+    { "id": 12, "reference": "2 Nephi 2:11", "text": "For it must needs be, that there is an opposition in all things." },
+    { "id": 13, "reference": "Ether 12:27", "text": "And if men come unto me I will show unto them their weakness." },
+    { "id": 14, "reference": "Mosiah 2:17", "text": "When ye are in the service of your fellow beings ye are only in the service of your God." },
+    { "id": 15, "reference": "2 Nephi 2:25", "text": "Adam fell that men might be; and men are, that they might have joy." },
+    { "id": 16, "reference": "Moroni 10:32", "text": "Yea, come unto Christ, and be perfected in him." },
+    { "id": 17, "reference": "Helaman 5:12", "text": "It is upon the rock of our Redeemer that ye must build your foundation." },
+    { "id": 18, "reference": "Ether 12:4", "text": "Whoso believeth in God might with surety hope for a better world." },
+    { "id": 19, "reference": "3 Nephi 12:16", "text": "Let your light so shine before this people, that they may see your good works." },
+    { "id": 20, "reference": "Mosiah 24:14", "text": "I will also ease the burdens which are put upon your shoulders." }
+  ]
+}
