@@ -7,15 +7,14 @@ let catImages = [];
 export async function fetchCatImages() {
     try {
         const response = await fetch(`${CAT_API_URL}&api_key=${API_KEY}`);
-        if (!response.ok) throw new Error('Error al obtener imágenes de TheCatAPI');
+        if (!response.ok) throw new Error('Error to obtain info of TheCatAPI');
 
         catImages = await response.json();
     } catch (error) {
-        console.error('Error al obtener imágenes:', error);
+        console.error('Error:', error);
     }
 }
 
-// Función para obtener una imagen aleatoria del conjunto
 export async function getRandomCatImage() {
     if (catImages.length === 0) {
         await fetchCatImages();

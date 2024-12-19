@@ -65,12 +65,10 @@ async function displayCatImage() {
     catImageElement.style.maxWidth = '100%';
     catImageElement.style.borderRadius = '10px';
 
-    // Agregar la imagen al contenedor en el HTML
     const contentArea = document.getElementById('content-area');
     contentArea.appendChild(catImageElement);
 }
 
-// Función para obtener una imagen aleatoria desde TheCatAPI
 async function getRandomCatImage() {
     const response = await fetch(`https://api.thecatapi.com/v1/images/search?limit=1&api_key=live_p8fjidOvgEWQr8Qkt3Cv4H9ieJd0lJUnXMRAIoCx6IEAT2bO1YaY36RZIuZRBtQk`);
     const data = await response.json();
