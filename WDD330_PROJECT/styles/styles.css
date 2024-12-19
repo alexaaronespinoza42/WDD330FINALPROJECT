@@ -400,6 +400,19 @@ form button {
     padding-bottom: 40px;
 }
 
+.indexMainThank {
+    padding-top: 50px;
+    width: 1000px; /* Ancho específico */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    margin: 0 auto; /* Centra el contenedor en el eje horizontal */}
+
+.indexMainThank p {
+    padding-bottom: 60px;
+    text-align: center; /* Centra el texto dentro del párrafo */
+}
+
 .indexImage img {
     display: inline-block;
     max-width: 225px;
@@ -594,6 +607,12 @@ footer {
     padding: 30px; 
     margin-top: 45px; 
 }
+
+footerThanks {
+    background-color: var(--secondary-color);
+    padding: 30px; 
+}
+
 .footer-container {
     display: flex;
     justify-content: space-between; 
