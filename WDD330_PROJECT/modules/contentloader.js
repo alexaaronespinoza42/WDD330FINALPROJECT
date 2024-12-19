@@ -1,30 +1,24 @@
-// Función para cargar contenido basado en la categoría
+
 export async function loadContent(category) {
     try {
-        // Cargar el archivo JSON correspondiente según la categoría seleccionada
         const response = await fetch(`https://raw.githubusercontent.com/alexaaronespinoza42/WDD330final/main/WDD330_PROJECT/jsonFiles/${category}.json`);
-        if (!response.ok) throw new Error(`No se pudo cargar el contenido para la categoría ${category}`);
+        if (!response.ok) throw new Error(`Error category ${category}`);
 
         const content = await response.json();
         
-        // Mostrar la imagen de un gato primero
         displayCatImage();
 
-        // Dependiendo de la categoría, mostramos el contenido de manera aleatoria
         displayRandomContent(content, category);
     } catch (error) {
         console.error(error);
     }
 }
 
-// Función para mostrar un contenido aleatorio de la categoría seleccionada
 function displayRandomContent(content, category) {
     const contentArea = document.getElementById('content-area');
     
-    // Limpiamos el área de contenido antes de insertar el nuevo contenido
     contentArea.innerHTML = '';
 
-    // Mostrar el contenido aleatorio según la categoría seleccionada
     let randomItem;
     
     if (category === 'phrases') {
@@ -50,13 +44,11 @@ function displayRandomContent(content, category) {
     }
 }
 
-// Función para obtener un elemento aleatorio del array
 function getRandomItem(arr) {
     const randomIndex = Math.floor(Math.random() * arr.length);
     return arr[randomIndex];
 }
 
-// Función para mostrar una imagen aleatoria de gatos
 async function displayCatImage() {
     const imageUrl = await getRandomCatImage();
     const catImageElement = document.createElement('img');
