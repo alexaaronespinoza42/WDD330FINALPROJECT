@@ -1,24 +1,24 @@
-{
-  "testimonies": [
-    { "id": 1, "name": "Alexandre", "text": "Faith gave me the courage to overcome my fears." },
-    { "id": 2, "name": "Aaron", "text": "I found peace by trusting in God’s plan for me." },
-    { "id": 3, "name": "Andrea", "text": "Serving others has strengthened my faith in humanity." },
-    { "id": 4, "name": "Samantha", "text": "Through prayer, I discovered a renewed sense of purpose." },
-    { "id": 5, "name": "Charlotte", "text": "God’s grace has carried me through my darkest moments." },
-    { "id": 6, "name": "Alex", "text": "I found joy in the simple things through my faith." },
-    { "id": 7, "name": "Virginia", "text": "Humility opened my heart to greater blessings." },
-    { "id": 8, "name": "Laika", "text": "I learned that strength comes from surrendering to God." },
-    { "id": 9, "name": "Eduardo", "text": "Every trial has brought me closer to God." },
-    { "id": 10, "name": "Monse", "text": "Faith has turned my weaknesses into strengths." },
-    { "id": 11, "name": "Lorena", "text": "I saw God’s hand in the kindness of strangers." },
-    { "id": 12, "name": "Gaby", "text": "Forgiveness has brought me peace and healing." },
-    { "id": 13, "name": "Jorge", "text": "I find strength in scripture and daily prayer." },
-    { "id": 14, "name": "Alejandrina", "text": "Sharing my testimony has deepened my faith." },
-    { "id": 15, "name": "Cristian", "text": "Humility has allowed me to see life differently." },
-    { "id": 16, "name": "Olga", "text": "In service, I’ve found a deeper connection to Christ." },
-    { "id": 17, "name": "Noah", "text": "Patience in trials brought blessings I never imagined." },
-    { "id": 18, "name": "Tuti", "text": "Prayer has been my anchor during storms." },
-    { "id": 19, "name": "Jack", "text": "Faith has shown me that miracles are real." },
-    { "id": 20, "name": "Vladimir", "text": "Through God’s love, I’ve found true happiness." }
-  ]
-}
+  {
+    "testimonies": [
+      { "id": 1, "name": "Alexandre", "text": "Faith gave me the courage to overcome my fears." },
+      { "id": 2, "name": "Aaron", "text": "I found peace by trusting in God’s plan for me." },
+      { "id": 3, "name": "Andrea", "text": "Serving others has strengthened my faith in humanity." },
+      { "id": 4, "name": "Samantha", "text": "Through prayer, I discovered a renewed sense of purpose." },
+      { "id": 5, "name": "Charlotte", "text": "God’s grace has carried me through my darkest moments." },
+      { "id": 6, "name": "Alex", "text": "I found joy in the simple things through my faith." },
+      { "id": 7, "name": "Virginia", "text": "Humility opened my heart to greater blessings." },
+      { "id": 8, "name": "Laika", "text": "I learned that strength comes from surrendering to God." },
+      { "id": 9, "name": "Eduardo", "text": "Every trial has brought me closer to God." },
+      { "id": 10, "name": "Monse", "text": "Faith has turned my weaknesses into strengths." },
+      { "id": 11, "name": "Lorena", "text": "I saw God’s hand in the kindness of strangers." },
+      { "id": 12, "name": "Gaby", "text": "Forgiveness has brought me peace and healing." },
+      { "id": 13, "name": "Jorge", "text": "I find strength in scripture and daily prayer." },
+      { "id": 14, "name": "Alejandrina", "text": "Sharing my testimony has deepened my faith." },
+      { "id": 15, "name": "Cristian", "text": "Humility has allowed me to see life differently." },
+      { "id": 16, "name": "Olga", "text": "In service, I’ve found a deeper connection to Christ." },
+      { "id": 17, "name": "Noah", "text": "Patience in trials brought blessings I never imagined." },
+      { "id": 18, "name": "Tuti", "text": "Prayer has been my anchor during storms." },
+      { "id": 19, "name": "Jack", "text": "Faith has shown me that miracles are real." },
+      { "id": 20, "name": "Vladimir", "text": "Through God’s love, I’ve found true happiness." }
+    ]
+  }

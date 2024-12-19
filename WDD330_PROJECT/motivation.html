@@ -12,7 +12,7 @@
 <body>
     <div class="headerIndex">
       <div class="logo">
-        <img src="images/logo.png" alt="Rafting Site Logo">
+        <img src="images/logo.png" alt="Hopecore Logo">
       </div>
       <h1>Cat Hopecore Website</h1>
       <nav>
@@ -28,63 +28,21 @@
     <main>
 
       <div class="heroTrip">
-        <img src="images/bookTrip.jpg" alt="Hero Index Backgorund Image">
+        <img src="images/CatForestTrain.jpg" alt="Hero Index Backgorund Image">
         <h1>Welcome to our Motivation Hub!</h1>
         <article>
           <p>The wisdom of cats invites us to be more independent, to trust our instincts and to embrace our individuality. On this page, you will find inspirational stories, motivational quotes, scriptures to read and remember that God loves us and also thoughtful questions to ask ourselves every day to maintain a good mindset. </p>
         </article>
       </div>
-    <!-- 
-      <div class = "tripsMain">
-        <h3>What do we offer at Noah's Water Rafting?</h3>
-        <p>
-          Are you ready to experience the thrill of a lifetime? At Noah Whitewater Rafting, we specialize 
-          in creating unforgettable adventures on some of the most exciting and picturesque rivers. 
-          Here’s what makes our website a must-visit for every adventure enthusiast:
-        </p>
-        <ul>
-          <li><strong>1.- Diverse Rafting Packages:</strong> Whether you're a seasoned rafter or a first-time adventurer, 
-            our website offers a variety of rafting packages tailored to suit all skill levels.</li>
-          <li><strong>2.- Interactive Trip Planner:</strong> Our state-of-the-art trip planner tool allows you to customize
-            your rafting experience. Choose your river, select your preferred difficulty level, and even add on unique experiences like camping under the stars or guided nature hikes.</li>
-          <li><strong>3.- Expert Guides and Safety First:</strong> Meet our team of highly trained and certified rafting 
-            guides who ensure that your safety and enjoyment are our top priorities. Our website features detailed
-            profiles and videos of our guides, so you can get to know the experts leading your adventure.</li>
-        </ul>
-      </div>
+      
+    <div class="buttons-container">
+      <button class="category-button" data-category="phrases">A Positive Phrase</button>
+      <button class="category-button" data-category="testimonies">A Increible Testimony</button>
+      <button class="category-button" data-category="scriptures">A Scripture</button>
+      <button class="category-button" data-category="questions">A Reflexive Question</button>
+    </div>
 
-      <div class="headGrid">
-        <h3>Take a look at ur most popular trips!</h3>
-      </div>
-
-      <div class="grid-container-top">
-        <div class="grid-item">
-            <div class="gridImages">
-                <img src="images/raftingAdventure1.jpg" alt="Paco's River" loading="lazy">
-            </div>
-            <p><strong>Paco's River</strong></p>
-            <p>Flows through a picturesque region, known for its clear waters and scenic landscapes, 
-              supporting local agriculture and tourism activities.</p>
-          </div>
-        <div class="grid-item">
-            <div class="gridImages">
-                <img src="images/raftingAdventure2.jpg" alt="Alexa's River" loading="lazy">
-            </div>
-            <p><strong>Alexa's River</strong></p>
-            <p>A vital waterway in its area, winds through lush forests and small towns, 
-              providing essential resources for both wildlife and human settlements.</p>
-          </div>
-        <div class="grid-item">
-            <div class="gridImages">
-                <img src="images/raftingAdventure3.jpg" alt="Noah's River" loading="lazy">
-            </div>
-            <p><strong>Noah's River</strong></p>
-            <p>Characterized by its winding course, vibrant, huge and beautiful ecosystems, serves as a crucial habitat 
-              for various species.</p>
-        </div>
-      </div>
-      --->
-
+    <div id="content-area" class="hidden"></div> <!-- Contenedor oculto inicialmente -->
     </main>
 
     <footer>
@@ -125,5 +83,8 @@
       </div>
     </footer>
 
+    <script type="module" src="modules/contentloader.js"></script>
+    <script type="module" src="modules/catapi.js"></script>
+    <script type="module" src="modules/main.js"></script>
 </body>
 </html>

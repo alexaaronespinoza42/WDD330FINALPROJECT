@@ -1,4 +1,4 @@
-    @import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Quicksand&display=swap');
 
 :root {
     --primary-color: #346c79;
@@ -10,8 +10,8 @@
   
     --heading-font: 'Poppins', sans-serif;
     --paragraph-font: 'Open Sans', sans-serif;
-    --h1-font:'Lora', serif;
-    --h2-font:'Open Sans', sans-serif;
+    --h1-font: 'Lora', serif;
+    --h2-font: 'Open Sans', sans-serif;
   
     --nav-background-color: #00D928;
     --nav-link-color: #000000;
@@ -634,3 +634,120 @@ footer {
     margin-right: 12px;
 }   
 
+/* Motivation   */
+#content-area {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: var(--quaternary-color);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content-area h2 {
+  font-family: var(--h2-font);
+  font-size: 24px;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+#content-area p {
+  font-family: var(--paragraph-font);
+  font-size: 18px;
+  color: var(--tertiary-color);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Specific Styles for Different Types of Content */
+#content-area .content-item {
+  background-color: var(--tertiary-color);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#content-area .content-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#content-area .content-item h3 {
+  font-family: var(--h2-font);
+  font-size: 22px;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+#content-area .content-item p {
+  font-size: 18px;
+  color: var(--tertiary-color);
+}
+
+/* Button Styling */
+.buttons-container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    margin: 0 auto;
+    gap: 20px;
+}          
+.category-button {
+  padding: 12px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.category-button:hover {
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  transform: scale(1.1);
+}
+
+/* For the motivational content: phrases, testimonies, etc */
+
+#content-area .content-item .quote-text {
+    font-family: var(--paragraph-font);
+    font-style: italic;
+    font-size: 20px;
+    color: var(--tertiary-color);
+    margin-bottom: 15px;
+}
+
+#content-area .content-item .author {
+    font-family: var(--h2-font);
+    font-size: 18px;
+    color: var(--secondary-color);
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* Add a background for better contrast */
+#content-area .content-item.scripture {
+    background-color: #F4F4F9;
+}
+
+#content-area .content-item.testimony {
+    background-color: #E0F7FA;
+}
+
+#content-area .content-item.question {
+    background-color: #FFF3E0;
+}
+
+#content-area .content-item.phrase {
+    background-color: #E8F5E9;
+}
